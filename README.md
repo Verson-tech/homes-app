@@ -1,1 +1,1 @@
-`ng generate component Home --standalone --inline-templagte`
+`ng generate component Home --standalone --inline-template`
