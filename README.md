@@ -4,5 +4,7 @@
 
 `ng generate interface housinglocation`
 
+`ng g c Details --standalone --inline-template`
+
 
 
