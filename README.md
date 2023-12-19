@@ -6,5 +6,7 @@
 
 `ng g c Details --standalone --inline-template`
 
+`ng g s housing`
+
 
 
