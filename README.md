@@ -2,7 +2,7 @@
 
 `ng generate component HousingLocation --standalone --inline-template`
 
-`ng generate interface housingLocation`
+`ng generate interface housinglocation`
 
 
 
