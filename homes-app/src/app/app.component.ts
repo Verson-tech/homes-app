@@ -1,6 +1,10 @@
 import { Component } from "@angular/core";
 import { HomeComponent } from "./home/home.component";
-
+//      THis file is the app component that will be used in the index.html file
+//      The app component is the parent component of the home component
+//      The app component is the child component of the index.html file
+//      The app component is the main component of the app
+// the root component is the app component
 @Component({
   standalone: true,
   selector: "app-root",
