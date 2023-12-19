@@ -12,4 +12,5 @@
                                    | housing-location component. |
   | src/app/housing-location/housing-location.component.ts | Is used in the home.component.ts 
                                    |and is is the child component of the home component. |
+  |                                 |                                                    |
 
