@@ -9,8 +9,8 @@
   | src/app/home/home.component.ts | This file is the home component that will be used in the 
                                    | app.component.ts file the home component is the `main` 
                                    | component of the app and is the parent component of the 
-                                   | housing-location component. |
+                                   | housing-location component. 
   | src/app/housing-location/housing-location.component.ts | Is used in the home.component.ts 
-                                   |and is is the child component of the home component. |
+                                   |and is is the child component of the home component. 
  |-----------|------------------------------|
 
