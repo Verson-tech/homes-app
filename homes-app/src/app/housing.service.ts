@@ -8,7 +8,8 @@ import { HousingLocation } from "./housinglocation";
   providedIn: "root",
 })
 export class HousingService {
-  protected housingLocations: HousingLocation[] = [
+  protected housingLocationList: HousingLocation[] = [
+    //  protected housingLocationList: HousingLocation[] = [
     {
       id: 0,
       name: "Acme Fresh Start Housing",
@@ -113,14 +114,17 @@ export class HousingService {
   constructor() {}
 
   getAllHousingLocations(): HousingLocation[] {
-    return this.housingLocations;
+    return this.housingLocationList;
   }
 
   getHousingLocationById(id: number): HousingLocation | undefined {
-    return this.housingLocations.find((housingLocation) => {
-      return this.housingLocations.find(
-        (housingLocation) => housingLocation.id === id
-      );
-    });
+    return this.housingLocationList.find(
+      (housingLocation) => housingLocation.id === id
+    );
+  }
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(
+      `Application submitted for ${firstName} ${lastName} at ${email}`
+    );
   }
 }
